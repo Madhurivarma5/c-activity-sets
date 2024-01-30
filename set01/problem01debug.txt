@@ -9,3 +9,11 @@ For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 problem01.exe: No such file or directory.
 (gdb)
+
+Breakpoint 1, 0x00401463 in main ()
+(gdb) n
+Single stepping until exit from function main,
+which has no line number information.
+Madhuri
+0x00401288 in __register_frame_info ()
+(gdb) quit
