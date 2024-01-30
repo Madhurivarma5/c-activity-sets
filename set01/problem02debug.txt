@@ -10,3 +10,15 @@ For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 a.exe: No such file or directory.
 (gdb) 
+
+
+Breakpoint 1 (main) pending.
+(gdb) b main 
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) n
+The program is not being run.
+(gdb) r
+Starting program:
+No executable specified, use `target exec'.
+(gdb) q
