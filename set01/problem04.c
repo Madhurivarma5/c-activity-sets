@@ -7,13 +7,16 @@
 #include<stdio.h>
 void input(int *a, int *b)
 {
-int n;
-    printf("enter the number:\n");
-    scanf("%d",&n);
+
+    printf("enter the first number:\n");
+    scanf("%d",a);
+    printf("enter the second number:\n");
+    scanf("%d",b);
+
 }
 void add(int a, int b, int *sum)
 {
-int *sum=a+b;
+*sum=a+b;
 }
 void output(int a, int b, int sum)
 {
