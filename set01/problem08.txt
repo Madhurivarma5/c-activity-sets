@@ -1,0 +1,27 @@
+GNU gdb (GDB) 7.6.1                                                                                                                                       
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\madhu\PSC\c-activity-sets-2\set01\problem08.exe...done.
+(gdb) r
+Starting program: C:\Users\madhu\PSC\c-activity-sets-2\set01/.\problem08.exe 
+[New Thread 21568.0x6d0]
+[New Thread 21568.0x1720]
+Enter the size:
+3
+Enter the 1 arrays:
+2
+Enter the 2 arrays:
+1
+Enter the 3 arrays:
+4
+
+Sum of the entered numbers is: 7
+[Inferior 1 (process 21568) exited normally]
+(gdb) q
+PS C:\Users\madhu\PSC\c-activity-sets-2\set01>
