@@ -12,13 +12,14 @@ a.exe: No such file or directory.
 (gdb) 
 
 
-Breakpoint 1 (main) pending.
-(gdb) b main 
-No symbol table is loaded.  Use the "file" command.
-Make breakpoint pending on future shared library load? (y or [n]) n
-(gdb) n
-The program is not being run.
 (gdb) r
-Starting program:
-No executable specified, use `target exec'.
+Starting program: C:\Users\madhu\PSC\c-activity-sets-2\set01/.\problem02.exe 
+[New Thread 2388.0x22e4]
+[New Thread 2388.0x4784]
+Enter the 1st number:
+1
+Enter the 2nd number:
+2
+ths sum is 3:[Inferior 1 (process 2388) exited normally]
 (gdb) q
+PS C:\Users\madhu\PSC\c-activity-sets-2\set01> 
