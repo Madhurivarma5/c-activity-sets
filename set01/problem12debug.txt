@@ -1,0 +1,22 @@
+GNU gdb (GDB) 7.6.1                                                                                                                                       
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\madhu\PSC\c-activity-sets-2\set01\problem12.exe...done.
+(gdb) r
+Starting program: C:\Users\madhu\PSC\c-activity-sets-2\set01/.\problem12.exe 
+[New Thread 22268.0x7b8]
+[New Thread 22268.0x32f8]
+how many complex numbers you want to add: 2
+enter the real number: 1
+enter the imaginary number: 3
+enter the real number: 4
+enter the imaginary number: 6
+the sum is 5.000000+9.000000i[Inferior 1 (process 22268) exited normally]
+(gdb) q
+PS C:\Users\madhu\PSC\c-activity-sets-2\set01>
