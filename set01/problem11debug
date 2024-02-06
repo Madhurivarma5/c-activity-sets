@@ -1,4 +1,4 @@
-GNU gdb (GDB) 7.6.1                                                                                                                                       
+GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
@@ -7,17 +7,17 @@ and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from C:\Users\madhu\PSC\c-activity-sets-2\set01\problem11.exe...done.
+Reading symbols from C:\Users\madhu\PSC\c-activity-sets-2\set01\a.exe...done.
 (gdb) r
-Starting program: C:\Users\madhu\PSC\c-activity-sets-2\set01/.\problem11.exe 
-[New Thread 20848.0x3930]
-[New Thread 20848.0x40ac]
+Starting program: C:\Users\madhu\PSC\c-activity-sets-2\set01/a.exe 
+[New Thread 1832.0x6078]
+[New Thread 1832.0x5328]
 enter the 1st complex number
-enter the real num:3
-enter the imaginary num:5
+enter the real num:2
+enter the imaginary num:3
 enter the 2nd complex number
-enter the real num:5
-enter the imaginary num:7
-the sum of  3+ 5i and  5+ 7i is 2048 [Inferior 1 (process 20848) exited normally]
+enter the real num:4
+enter the imaginary num:5
+the sum of  2+ 3i and  4+ 5i is  6+ 8i [Inferior 1 (process 1832) exited normally]
 (gdb) q
 PS C:\Users\madhu\PSC\c-activity-sets-2\set01>
