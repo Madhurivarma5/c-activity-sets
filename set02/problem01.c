@@ -31,3 +31,4 @@ void output(float base, float height, float area) {
     printf("Height: %.2f\n", height);
     printf("Area: %.2f\n", area);
 }
+
