@@ -17,4 +17,4 @@ Prime numbers between 2 and 7 are:
 2 3 5 7
 [Inferior 1 (process 3376) exited normally]
 (gdb) q
-PS C:\Users\madhu\Downloads\c-activity-sets\set03>
+
