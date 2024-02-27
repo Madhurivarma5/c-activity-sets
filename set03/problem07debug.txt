@@ -1,0 +1,24 @@
+GNU gdb (GDB) 7.6.1                                                                                                                                       
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\madhu\Downloads\c-activity-sets\set03\a.exe...done.
+(gdb) r
+Starting program: C:\Users\madhu\Downloads\c-activity-sets\set03/a.exe 
+[New Thread 2488.0x2f0c]
+[New Thread 2488.0x3948]
+Enter coordinates for Point 1:
+Enter x-coordinate: 3
+Enter y-coordinate: 5
+Enter coordinates for Point 2:
+Enter x-coordinate: 6
+Enter y-coordinate: 7
+Length of the line: 3.61
+[Inferior 1 (process 2488) exited normally]
+(gdb) q
+PS C:\Users\madhu\Downloads\c-activity-sets\set03>
