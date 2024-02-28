@@ -1,0 +1,24 @@
+GNU gdb (GDB) 7.6.1                                                                                                                                       
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\madhu\Downloads\c-activity-sets\set04\a.exe...done.
+(gdb) r
+Starting program: C:\Users\madhu\Downloads\c-activity-sets\set04/a.exe 
+[New Thread 11008.0x505c]
+[New Thread 11008.0x395c]
+Enter the first fraction:
+Enter numerator: 5
+Enter non-zero denominator: 3
+Enter the second fraction:
+Enter numerator: 6
+Enter non-zero denominator: 8
+Sum of 5/3 and 6/8 is 58/24
+[Inferior 1 (process 11008) exited normally]
+(gdb) q
+PS C:\Users\madhu\Downloads\c-activity-sets\set04> 
