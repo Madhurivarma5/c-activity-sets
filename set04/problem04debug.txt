@@ -1,0 +1,25 @@
+GNU gdb (GDB) 7.6.1                                                                                                                                       
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\madhu\Downloads\c-activity-sets\set04\a.exe...done.
+(gdb) r
+Starting program: C:\Users\madhu\Downloads\c-activity-sets\set04/a.exe 
+[New Thread 1452.0x176c]
+[New Thread 1452.0x38b4]
+Enter the degree of the polynomial: 4
+Enter the coefficients of the polynomial (from highest degree to constant term):
+Coefficient for x^4: 2
+Coefficient for x^3: 5
+Coefficient for x^2: 6
+Coefficient for x^1: 1
+Coefficient for x^0: 2
+Enter the value of x: 3
+The polynomial 2.00x^4 + 5.00x^3 + 6.00x^2 + 1.00x^1 + 2.00 evaluated at x = 3.00 is: 260.00
+[Inferior 1 (process 1452) exited normally]
+(gdb) q
